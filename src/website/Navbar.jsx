@@ -53,11 +53,30 @@ const Navbar = () => {
                     <NavLink
                       activeClassName="menu_active"
                       className="nav-link"
+                      to="/weather"
+                    >
+                      Weather
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      activeClassName="menu_active"
+                      className="nav-link"
+                      to="/covid"
+                    >
+                      Covid track
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      activeClassName="menu_active"
+                      className="nav-link"
                       to="/about"
                     >
                       About
                     </NavLink>
                   </li>
+
                   <li className="nav-item">
                     <NavLink
                       activeClassName="menu_active"

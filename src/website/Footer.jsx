@@ -1,9 +1,12 @@
 import React from "react";
+import CurrentDate from "./CurrentDate";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-light text-center">Copyright-2021</footer>
+      <footer className="bg-light text-center">
+        <CurrentDate />
+      </footer>
     </div>
   );
 };

@@ -1,0 +1,9 @@
+.greeting {
+  padding: 20px 20px;
+  background-color: #ffe9c5;
+  color: #fa9191;
+  border-radius: 20px;
+  text-align: center;
+  width: fit-content;
+  margin-left: 130px;
+}

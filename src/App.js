@@ -26,21 +26,26 @@ import Service from "./website/Service";
 import Navbar from "./website/Navbar";
 import "./website.css";
 import Footer from "./website/Footer";
+import Covidapp from "../src/covidTracker/Covidapp";
+import Weatherapp from "./Weather/Weatherapp";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/service" component={Service} />
-          <Route path="/contact" component={Contact} />
-          <Redirect to="/" />
-        </Switch>
-        <Footer />
-      </div>
+
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/service" component={Service} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/weather" component={Weatherapp} />
+        <Route path="/covid" component={Covidapp} />
+
+        <Redirect to="/" />
+      </Switch>
+
+      <Footer />
     </>
   );
 };

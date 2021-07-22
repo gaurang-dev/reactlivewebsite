@@ -26,6 +26,27 @@ const Sdata = [
     imgsrc: marketing,
     title: "marketing Development",
   },
+  {
+    imgsrc: web,
+    title: "web Development",
+  },
+  {
+    imgsrc: app,
+    title: "web Development",
+  },
+
+  {
+    imgsrc: software,
+    title: "software Development",
+  },
+  {
+    imgsrc: digital,
+    title: "digital Development",
+  },
+  {
+    imgsrc: marketing,
+    title: "marketing Development",
+  },
 ];
 
 export default Sdata;
